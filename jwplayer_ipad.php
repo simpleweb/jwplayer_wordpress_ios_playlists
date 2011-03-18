@@ -1,3 +1,4 @@
+<?php
 // This depends on the JWPlayer plugin
 if (function_exists('jwplayer_tag_callback')) {
     function video_tag_callback($the_content = '', $poster = false) {
